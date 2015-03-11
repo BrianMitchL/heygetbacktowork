@@ -4,11 +4,15 @@
     <meta charset="UTF-8">
     <title>Hey, Get Back to Work!</title>
     <style type="text/css">
+        html,
         body {
+            margin: 0;
+            height: 100%;
+            position: relative;
             font-family: sans-serif;
             text-align: center;
         }
-        div {
+        #title {
             position: absolute;
             top: 50%;
             left: 50%;
@@ -34,7 +38,25 @@
     </style>
 </head>
 <body>
-    <div>
+    <script type="text/javascript">
+        function gradient() {
+            var c1 = {
+                r: Math.floor(Math.random() * (255 - 100 + 1)) + 100,
+                g: Math.floor(Math.random() * (255 - 100 + 1)) + 100,
+                b: Math.floor(Math.random() * (255 - 100 + 1)) + 100
+            };
+            var c2 = {
+                r: Math.floor(Math.random() * (255 - 100 + 1)) + 100,
+                g: Math.floor(Math.random() * (255 - 100 + 1)) + 100,
+                b: Math.floor(Math.random() * (255 - 100 + 1)) + 100
+            };
+            c1.rgb = 'rgb('+c1.r+','+c1.g+','+c1.b+')';
+            c2.rgb = 'rgb('+c2.r+','+c2.g+','+c2.b+')';
+            return 'radial-gradient(at top left, '+c1.rgb+', '+c2.rgb+')';
+        }
+        document.body.style.background = gradient();
+    </script>
+    <div id="title">
         <h1>Hey, Get Back to Work!</h1>
         <p>By Brian Mitchell, <a href="https://twitter.com/bman4789/">@bman4789</a></p>
     </div>
