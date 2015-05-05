@@ -1,0 +1,40 @@
+html,
+body {
+    margin: 0;
+    height: 100%;
+    position: relative;
+    font-family: Helvetica,Arial,sans-serif;
+    text-align: center;
+    color: white;
+}
+#title {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    height: 30%;
+    width: 50%;
+    margin: -15% 0 0 -25%;
+    font-size: 200%;
+    text-shadow: 0 1px 0 rgba(0, 0, 0, 0.1);
+}
+#title > p {
+    font-size: 80%;
+}
+#title > p > a {
+    color: white;
+}
+#title > p > a:link {
+    text-decoration: none;
+}
+#title > p > a:visited {
+    text-decoration: none;
+}
+#title > p > a:hover {
+    text-decoration: underline;
+}
+#title > p > a:active {
+    text-decoration: underline;
+}
+#title > h1 {
+    letter-spacing: -1px;
+}
