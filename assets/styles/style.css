@@ -70,14 +70,13 @@ body {
 
 #pst {
     position: absolute;
-    top: 50%;
-    left: 50%;
-    height: 25%;
-    width: 50%;
-    margin: -15% 0 0 -25%;
-
+    top: 20%;
+    left: 48%;
+    height: 5%;
+    width: 5%;
+    margin-left: auto;
+    margin-right: auto;
 }
 #pst a {
     color: white;
-    text-decoration: underline
 }
