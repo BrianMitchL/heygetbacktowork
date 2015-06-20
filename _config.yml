@@ -7,4 +7,4 @@ url: http://heygetbackto.work
 
 author : Brian Mitchell
 
-exclude: ['README.md', '.gitignore', 'Gemfile']
+exclude: ['README.md', '.gitignore', 'Gemfile', 'raw_resources']
