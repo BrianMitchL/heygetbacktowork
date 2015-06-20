@@ -20,7 +20,7 @@ body {
     text-align: center;
 }
 
-#title {
+.main-title {
     position: absolute;
     top: 25%;
     left: 0;
@@ -34,19 +34,19 @@ body {
     color: white;
 }
 
-#title > p {
+.main-title > p {
     font-size: 80%;
 }
-#title > p > a {
+.main-title > p > a {
     color: white;
 }
-#title > p > a:link, #title > p > a:visited {
+.main-title > p > a:link, .main-title > p > a:visited {
     text-decoration: none;
 }
-#title > p > a:hover, #title > p > a:active, #pst:active, #pst:hover {
+.main-title > p > a:hover, .main-title > p > a:active, #pst:active, #pst:hover {
     text-decoration: underline;
 }
-#title > h1 {
+.main-title > h1 {
     letter-spacing: -1px;
     margin: 0;
 }

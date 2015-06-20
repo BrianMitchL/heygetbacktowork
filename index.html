@@ -3,7 +3,7 @@ layout: default
 ---
 
 <div class="gradient center-text">
-    <div id="title">
+    <div class="main-title">
         <a id="pst" class="animated infinite bounce" href="/pssst">Pssst!</a>
         <h1 class="animated infinite pulse">Hey, Get Back to Work!</h1>
         <p>By Brian Mitchell, <a href="https://twitter.com/bman4789/">@bman4789</a>, <a href="https://brianm.me/" title="brianm.me website">https://brianm.me/</a></p>
@@ -14,7 +14,11 @@ layout: default
     $(document).ready(function() {
         setTimeout(
             function() {
-                $('#title').addClass('animated hinge');
+                $('.main-title').addClass('animated hinge');
+                setTimeout(
+                        function() {
+                            $(".gradient").append("<h1 class=\"main-title animated bounceIn\">Time is money. 💰<br /><small style=\"text-align:right;\">-Benjamin Franklin</small></h1>");
+                        }, 5000);
             }, 15000);
     });
 </script>
