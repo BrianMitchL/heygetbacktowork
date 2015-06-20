@@ -10,7 +10,6 @@ body {
 .gradient {
     height: 100%;
     width: 100%;
-    background-attachment:fixed;
 }
 
 .hidden {
@@ -23,11 +22,14 @@ body {
 
 #title {
     position: absolute;
-    top: 50%;
-    left: 50%;
+    top: 25%;
+    left: 0;
+    right: 0;
+    margin-left: auto;
+    margin-right: auto;
     height: 30%;
     width: 50%;
-    margin: -15% 0 0 -25%;
+    /*margin: -15% 0 0 -25%;*/
     font-size: 200%;
     text-shadow: 0 1px 0 rgba(0, 0, 0, 0.1);
     color: white;
@@ -39,23 +41,20 @@ body {
 #title > p > a {
     color: white;
 }
-#title > p > a:link {
+#title > p > a:link, #title > p > a:visited {
     text-decoration: none;
 }
-#title > p > a:visited {
-    text-decoration: none;
-}
-#title > p > a:hover {
-    text-decoration: underline;
-}
-#title > p > a:active {
+#title > p > a:hover, #title > p > a:active, #pst:active, #pst:hover {
     text-decoration: underline;
 }
 #title > h1 {
     letter-spacing: -1px;
+    margin: 0;
 }
 
-#top {padding-top:10em;}
+#top {
+    padding-top:10em;
+}
 
 #bottom {
     position:fixed;
@@ -70,14 +69,12 @@ body {
 
 #pst {
     position: absolute;
-    top: 20%;
+    top: -20%;
     left: 0;
     right: 0;
-    height: 5%;
-    width: 5%;
     margin-left: auto;
     margin-right: auto;
-}
-#pst a {
     color: white;
+    font-size: 12pt;
+    text-decoration: none;
 }
