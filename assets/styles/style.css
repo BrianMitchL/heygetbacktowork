@@ -71,7 +71,8 @@ body {
 #pst {
     position: absolute;
     top: 20%;
-    left: 48%;
+    left: 0;
+    right: 0;
     height: 5%;
     width: 5%;
     margin-left: auto;
