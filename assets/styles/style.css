@@ -7,11 +7,6 @@ body {
     font-family: Helvetica,Arial,sans-serif;
 }
 
-.gradient {
-    height: 100%;
-    width: 100%;
-}
-
 .hidden {
     display:none;
 }
