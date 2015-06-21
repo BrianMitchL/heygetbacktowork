@@ -27,23 +27,20 @@ body {
     right: 0;
     margin-left: auto;
     margin-right: auto;
-    height: 30%;
-    width: 50%;
+    width: 60%;
     font-size: 200%;
     text-shadow: 0 1px 0 rgba(0, 0, 0, 0.1);
     color: white;
 }
 
 .main-title > p {
-    font-size: 80%;
+    font-size: 60%;
 }
-.main-title > p > a {
+.main-title > p > a, .main-title > p > a, #bling {
+    text-decoration: none;
     color: white;
 }
-.main-title > p > a:link, .main-title > p > a:visited {
-    text-decoration: none;
-}
-.main-title > p > a:hover, .main-title > p > a:active, #pst:active, #pst:hover {
+.main-title > p > a:hover, .main-title > p > a:active, #pst:active, #pst:hover, #bling:active, #bling:hover {
     text-decoration: underline;
 }
 .main-title > h1 {
@@ -68,7 +65,7 @@ body {
 
 #pst {
     position: absolute;
-    top: -20%;
+    top: -10%;
     left: 0;
     right: 0;
     margin-left: auto;
@@ -76,4 +73,10 @@ body {
     color: white;
     font-size: 12pt;
     text-decoration: none;
+}
+
+#bling {
+    position: absolute;
+    right: -20%;
+    bottom: -100%;
 }

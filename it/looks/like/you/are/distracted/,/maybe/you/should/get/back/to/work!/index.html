@@ -1,0 +1,36 @@
+---
+layout: default
+---
+
+<div class="gradient center-text">
+    <h1 id="message" class="main-title animated infinite flash"></h1>
+</div>
+
+<script type="text/javascript">
+    var timer, currentOffset, wordSet;
+    var element = $('#message');
+
+    function Speak(text) {
+        wordSet = text.split(",");
+        currentOffset = 0;
+        timer = setInterval(onTick, 80);
+    }
+
+    function onTick() {
+        currentOffset++;
+        if (currentOffset == wordSet.length + 1) {
+            clearInterval(timer);
+            timer = null;
+            element.removeClass('flash').addClass('bounce');
+            return;
+        }
+        var text = "";
+        for(var i = 0; i < currentOffset; i++){
+            text += wordSet[i];
+        }
+        text.trim();
+        element.html(text);
+    }
+
+    Speak("S,h,o,u,l,d,n,',t ,y,o,u ,b,e ,d,o,i,n,g ,s,o,m,e,t,h,i,n,g ,e,l,s,e ,w,i,t,h ,y,o,u,r ,t,i,m,e,?");
+</script>
