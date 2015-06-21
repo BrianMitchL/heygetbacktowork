@@ -31,31 +31,19 @@ body {
 .main-title > p {
     font-size: 60%;
 }
-.main-title > p > a, .main-title > p > a, #bling {
-    text-decoration: none;
-    color: white;
-}
-.main-title > p > a:hover, .main-title > p > a:active, #pst:active, #pst:hover, #bling:active, #bling:hover {
-    text-decoration: underline;
-}
+
 .main-title > h1 {
     letter-spacing: -1px;
     margin: 0;
 }
 
-#top {
-    padding-top:10em;
+.main-link {
+    text-decoration: none;
+    color: white;
 }
 
-#bottom {
-    position:fixed;
-    right:0;
-    bottom:0;
-    left:0;
-}
-#bottom > img {
-    display:block;
-    margin:auto;
+.main-link:hover, .main-link:active {
+    text-decoration: underline;
 }
 
 #pst {
@@ -65,9 +53,7 @@ body {
     right: 0;
     margin-left: auto;
     margin-right: auto;
-    color: white;
     font-size: 12pt;
-    text-decoration: none;
 }
 
 #offRightEdge, #offLeftEdge {
