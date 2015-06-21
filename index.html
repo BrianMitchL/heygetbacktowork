@@ -16,8 +16,9 @@ layout: default
                 $('.main-title').addClass('animated hinge');
                 setTimeout(
                         function() {
-                            $(".gradient").append("<h1 class=\"main-title center-text animated bounceIn\">Time is money. 💰<br /><small style=\"text-align:right;\">-Benjamin Franklin</small></h1>");
-                        }, 5000);
+                            $('.main-title').remove();
+                            $("body").append("<h1 class=\"main-title center-text animated bounceIn\">Time is money. 💰<br /><small style=\"text-align:right;\">-Benjamin Franklin</small></h1>");
+                        }, 4000);
             }, 15000);
     });
 </script>
