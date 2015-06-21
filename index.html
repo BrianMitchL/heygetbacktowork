@@ -2,13 +2,12 @@
 layout: default
 ---
 
-<div class="gradient center-text">
-    <div class="main-title">
-        <a id="pst" class="animated infinite bounce" href="/pssst">Pssst!</a>
-        <h1 class="animated infinite pulse">Hey, Get Back to Work!</h1>
-        <p>By Brian Mitchell, <a href="https://twitter.com/bman4789/">@bman4789</a>, <a href="https://brianm.me/" title="brianm.me website">https://brianm.me/</a></p>
-        <p>By Dalton Gusaas, <a href="https://github.com/bman4789/heygetbacktowork" title="Github Repo">Github Repo</a></p>
-    </div>
+<div class="main-title center-text">
+    <a id="pst" class="animated infinite bounce" href="/pssst">Pssst!</a>
+    <h1 class="animated infinite pulse">Hey, Get Back to Work!</h1>
+    <p>By Brian Mitchell, <a href="https://twitter.com/bman4789/">@bman4789</a>, <a href="https://brianm.me/" title="brianm.me website">https://brianm.me/</a><br />
+    With help from Dalton Gusaas.<br /><a href="https://github.com/bman4789/heygetbacktowork" title="Github Repo">Source</a></p>
+    <a id="bling" class="animated rotateInUpRight" href="/it/looks/like/you/are/distracted/,/maybe/you/should/get/back/to/work!/" title="$$$$$">$💰💵💸💳💲</a>
 </div>
 <script type="text/javascript">
     $(document).ready(function() {
@@ -17,7 +16,7 @@ layout: default
                 $('.main-title').addClass('animated hinge');
                 setTimeout(
                         function() {
-                            $(".gradient").append("<h1 class=\"main-title animated bounceIn\">Time is money. 💰<br /><small style=\"text-align:right;\">-Benjamin Franklin</small></h1>");
+                            $(".gradient").append("<h1 class=\"main-title center-text animated bounceIn\">Time is money. 💰<br /><small style=\"text-align:right;\">-Benjamin Franklin</small></h1>");
                         }, 5000);
             }, 15000);
     });
