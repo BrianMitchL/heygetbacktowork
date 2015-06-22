@@ -1,5 +1,4 @@
-var colors = [[62,35,255], [60,255,60], [255,35,98], [45,175,230], [255,0,255], [255,128,0]];
-
+var colors = [[204,187,20], [255,126,64], [0,208,255], [61,88,153], [204,53,20], [255,25,114], [255,120,0], [20,74,204]];
 var step = 0;
 //color table indices for:
 // current color left
@@ -33,8 +32,11 @@ function updateGradient()
     var color2 = "rgb("+r2+","+g2+","+b2+")";
 
     $('body').css({
-        background: "-webkit-gradient(linear, left top, right top, from("+color1+"), to("+color2+"))"}).css({
-        background: "-moz-linear-gradient(left, "+color1+" 0%, "+color2+" 100%)"});
+        background: "-webkit-linear-gradient(left top, "+color1+" 0%, "+color2+" 100%)"}).css({
+        background: "-moz-linear-gradient(left top, "+color1+" 0%, "+color2+" 100%)"}).css({
+        background: "-o-linear-gradient(left top, "+color1+" 0%, "+color2+" 100%)"}).css({
+        background: "-ms-linear-gradient(left top, "+color1+" 0%, "+color2+" 100%)"}).css({
+        background: "linear-gradient(left top, "+color1+" 0%, "+color2+" 100%)"});
 
     step += gradientSpeed;
     if ( step >= 1 )
