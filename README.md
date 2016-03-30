@@ -1,7 +1,7 @@
 # Hey, Get Back to Work!
 Source of [heygetbackto.work](http://heygetbackto.work)
 
-A place to remind you to work.
+A distracting reminder to get back to work.
 
 ## Contributing
 Feel free to submit a pull request with a new page of wonderfully useless animation or time wasting content. Please add a link to the new page on the main index.html file. Please try to match the same coding style if you can, or submit an issue with any suggestions.
