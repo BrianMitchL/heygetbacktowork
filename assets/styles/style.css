@@ -29,14 +29,13 @@ h1, h2, h3, h4, h5, h6, p, a, div {
 
 .main-title {
     position: absolute;
-    top: 25%;
+    top: 25vh;
     left: 0;
     right: 0;
     margin-left: auto;
     margin-right: auto;
-    width: 60%;
-    font-size: 200%;
-    text-shadow: 0 1px 0 rgba(0, 0, 0, 0.1);
+    width: 60vw;
+    font-size: 2em;
     color: white;
 }
 
@@ -60,21 +59,24 @@ h1, h2, h3, h4, h5, h6, p, a, div {
 
 #pst {
     position: absolute;
-    top: -10%;
+    top: -10vh;
     left: 0;
     right: 0;
     margin-left: auto;
     margin-right: auto;
-    font-size: 12pt;
+    font-size: 1rem;
 }
 
-#offRightEdge, #offLeftEdge {
-    position: absolute;
-    bottom: -100%;
+.left{float:left;}
+.right{float:right;}
+
+.width-half {
+    width: 50%;
 }
-#offRightEdge{
-    right: -20%;
-}
-#offLeftEdge {
-    left: -20%;
+
+@media only screen
+and (max-width : 768px) {
+    .width-half {
+        width: 100%;
+    }
 }
