@@ -34,7 +34,7 @@ h1, h2, h3, h4, h5, h6, p, a, div {
     right: 0;
     margin-left: auto;
     margin-right: auto;
-    width: 60vw;
+    width: 75vw;
     font-size: 2em;
     color: white;
 }
@@ -76,6 +76,14 @@ h1, h2, h3, h4, h5, h6, p, a, div {
 
 @media only screen
 and (max-width : 768px) {
+    body {
+        font-size: 0.8em;
+    }
+
+    .main-title {
+        width: 90vw;
+    }
+
     .width-half {
         width: 100%;
     }
