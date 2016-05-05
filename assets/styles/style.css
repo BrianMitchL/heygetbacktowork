@@ -4,7 +4,19 @@ body {
     padding: 0;
     height: 100%;
     position: relative;
-    font-family: Helvetica,Arial,sans-serif;
+    font-family: -apple-system-font,Helvetica,Arial,sans-serif;
+}
+
+body {
+    background: url("/assets/images/background.jpg") no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+h1, h2, h3, h4, h5, h6, p, a, div {
+    text-shadow: 0 0 0.5em rgb(0, 0, 0);
 }
 
 .hidden {
