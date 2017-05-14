@@ -1,0 +1,228 @@
+// generated with the following
+//.shake-omg {
+//@include do-shake('shake-omg', 75vw, 75vh, 180, 5000ms, .02);
+//}
+
+.shake-omg {
+  display: inline-block;
+  transform-origin: center center
+}
+
+.shake-freeze, .shake-constant.shake-constant--hover:hover, .shake-trigger:hover .shake-constant.shake-constant--hover {
+  animation-play-state: paused
+}
+
+.shake-freeze:hover, .shake-trigger:hover .shake-freeze, .shake-omg:hover,
+.shake-trigger:hover .shake-omg {
+  animation-play-state: running
+}
+
+@keyframes shake-omg {
+  2% {
+    transform: translate(37.5vw, 28.5vh) rotate(59deg)
+  }
+
+  4% {
+    transform: translate(-16.5vw, -5.5vh) rotate(37deg)
+  }
+
+  6% {
+    transform: translate(-13.5vw, -36.5vh) rotate(86deg)
+  }
+
+  8% {
+    transform: translate(-30.5vw, 13.5vh) rotate(-3deg)
+  }
+
+  10% {
+    transform: translate(-19.5vw, -16.5vh) rotate(82deg)
+  }
+
+  12% {
+    transform: translate(9.5vw, -12.5vh) rotate(-89deg)
+  }
+
+  14% {
+    transform: translate(-7.5vw, 9.5vh) rotate(42deg)
+  }
+
+  16% {
+    transform: translate(18.5vw, -4.5vh) rotate(-70deg)
+  }
+
+  18% {
+    transform: translate(-7.5vw, -20.5vh) rotate(-59deg)
+  }
+
+  20% {
+    transform: translate(-2.5vw, -32.5vh) rotate(0deg)
+  }
+
+  22% {
+    transform: translate(-12.5vw, 28.5vh) rotate(-20deg)
+  }
+
+  24% {
+    transform: translate(29.5vw, -31.5vh) rotate(24deg)
+  }
+
+  26% {
+    transform: translate(10.5vw, 6.5vh) rotate(12deg)
+  }
+
+  28% {
+    transform: translate(.5vw, 30.5vh) rotate(5deg)
+  }
+
+  30% {
+    transform: translate(37.5vw, 5.5vh) rotate(-66deg)
+  }
+
+  32% {
+    transform: translate(-18.5vw, 11.5vh) rotate(-66deg)
+  }
+
+  34% {
+    transform: translate(2.5vw, -36.5vh) rotate(39deg)
+  }
+
+  36% {
+    transform: translate(25.5vw, 16.5vh) rotate(-30deg)
+  }
+
+  38% {
+    transform: translate(-22.5vw, .5vh) rotate(-15deg)
+  }
+
+  40% {
+    transform: translate(.5vw, 1.5vh) rotate(-14deg)
+  }
+
+  42% {
+    transform: translate(-35.5vw, 32.5vh) rotate(49deg)
+  }
+
+  44% {
+    transform: translate(33.5vw, -32.5vh) rotate(73deg)
+  }
+
+  46% {
+    transform: translate(7.5vw, 29.5vh) rotate(11deg)
+  }
+
+  48% {
+    transform: translate(6.5vw, -3.5vh) rotate(56deg)
+  }
+
+  50% {
+    transform: translate(14.5vw, -25.5vh) rotate(47deg)
+  }
+
+  52% {
+    transform: translate(-25.5vw, -33.5vh) rotate(25deg)
+  }
+
+  54% {
+    transform: translate(-22.5vw, -3.5vh) rotate(-29deg)
+  }
+
+  56% {
+    transform: translate(-6.5vw, 25.5vh) rotate(-41deg)
+  }
+
+  58% {
+    transform: translate(-28.5vw, 28.5vh) rotate(5deg)
+  }
+
+  60% {
+    transform: translate(18.5vw, 7.5vh) rotate(-39deg)
+  }
+
+  62% {
+    transform: translate(3.5vw, -22.5vh) rotate(33deg)
+  }
+
+  64% {
+    transform: translate(-30.5vw, -24.5vh) rotate(-85deg)
+  }
+
+  66% {
+    transform: translate(9.5vw, 15.5vh) rotate(50deg)
+  }
+
+  68% {
+    transform: translate(23.5vw, 27.5vh) rotate(25deg)
+  }
+
+  70% {
+    transform: translate(15.5vw, -30.5vh) rotate(50deg)
+  }
+
+  72% {
+    transform: translate(-36.5vw, -16.5vh) rotate(-22deg)
+  }
+
+  74% {
+    transform: translate(12.5vw, 3.5vh) rotate(-68deg)
+  }
+
+  76% {
+    transform: translate(35.5vw, -17.5vh) rotate(-55deg)
+  }
+
+  78% {
+    transform: translate(34.5vw, -28.5vh) rotate(46deg)
+  }
+
+  80% {
+    transform: translate(-12.5vw, 15.5vh) rotate(-64deg)
+  }
+
+  82% {
+    transform: translate(2.5vw, 24.5vh) rotate(-39deg)
+  }
+
+  84% {
+    transform: translate(-13.5vw, 10.5vh) rotate(4deg)
+  }
+
+  86% {
+    transform: translate(-23.5vw, 18.5vh) rotate(55deg)
+  }
+
+  88% {
+    transform: translate(-8.5vw, -14.5vh) rotate(37deg)
+  }
+
+  90% {
+    transform: translate(-17.5vw, 24.5vh) rotate(-80deg)
+  }
+
+  92% {
+    transform: translate(23.5vw, -12.5vh) rotate(63deg)
+  }
+
+  94% {
+    transform: translate(8.5vw, 34.5vh) rotate(-32deg)
+  }
+
+  96% {
+    transform: translate(-2.5vw, -23.5vh) rotate(-64deg)
+  }
+
+  98% {
+    transform: translate(-15.5vw, 27.5vh) rotate(-31deg)
+  }
+
+  0%, 100% {
+    transform: translate(0, 0) rotate(0)
+  }
+}
+
+.shake-omg:hover, .shake-trigger:hover .shake-omg, .shake-omg.shake-freeze,
+.shake-omg.shake-constant {
+  animation-name: shake-omg;
+  animation-duration: 5000ms;
+  animation-timing-function: ease-in-out;
+  animation-iteration-count: infinite
+}
