@@ -1,8 +1,33 @@
-site_name : Hey, Get Back to Work
 title : Hey, Get Back to Work!
 description: You look distracted, get back to work!
-url: http://heygetbackto.work
+url: https://heygetbackto.work
 
 author : Brian Mitchell
 
-exclude: ['README.md', '.gitignore', 'Gemfile', 'raw_resources']
+exclude:
+  - README.md
+  - .gitignore
+  - Gemfile
+  - Gemfile.lock
+  - .sass-cache
+  - CNAME
+  - LICENSE
+  - raw_resources
+  - vendor
+
+sass:
+  sass_dir: assets/styles/_sass
+  style: compressed
+
+gems:
+  - jekyll-sitemap
+  - jekyll-seo-tag
+  - jekyll-sass-converter
+
+# analytics
+analytics:
+  google:
+    tracking_id: UA-44772557-4
+
+twitter:
+  username: BrianMitchL

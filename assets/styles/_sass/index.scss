@@ -1,0 +1,25 @@
+.pst {
+  position: absolute;
+  top: -10vh;
+  left: 0;
+  right: 0;
+  margin-left: auto;
+  margin-right: auto;
+  font-size: 1rem;
+}
+
+.left {
+  float: left;
+}
+
+.right {
+  float: right;
+}
+
+.width-half {
+  width: 50%;
+
+  @media only screen and (max-width: 768px) {
+    width: 100%;
+  }
+}

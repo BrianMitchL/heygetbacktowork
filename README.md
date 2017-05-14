@@ -13,7 +13,7 @@ layout: default
 ---
 ```
 
-To view your changes and run the webserver, install bundler and the dependencies for the project. Note: you may need to be root or use sudo.
+To view your changes and run the webserver, install bundler and the dependencies for the project.
 ```sh
 gem install bundler
 bundle install
@@ -21,7 +21,7 @@ bundle install
 
 To start the server, run
 ```
-jekyll serve
+bundle exec jekyll serve
 ```
 
 ## Attributions

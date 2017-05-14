@@ -3,25 +3,29 @@ layout: default
 ---
 
 <div class="main-title text-center">
-    <a id="pst" class="animated infinite bounce main-link" href="/pssst">Pssst!</a>
+    <a class="animated infinite bounce main-link pst" href="/pssst">Pssst!</a>
     <h1 class="animated infinite pulse">Hey, Get Back to Work!</h1>
-    <p>By Brian Mitchell, <a class="main-link" href="https://twitter.com/BrianMitchL/">@BrianMitchL</a>, <a class="main-link" href="https://brianm.me/" title="brianm.me website">https://brianm.me/</a><br />
-    With help from Dalton Gusaas &amp; Thomas Harren.<br /><a class="main-link" href="https://github.com/BrianMitchL/heygetbacktowork" title="Github Repo">Source</a></p>
+    <p>By Brian Mitchell, <a class="main-link" href="https://twitter.com/BrianMitchL/">@BrianMitchL</a>, <a
+            class="main-link" href="https://brianm.me/" title="brianm.me website">https://brianm.me/</a><br/>
+        With help from Dalton Gusaas &amp; Thomas Harren.<br/><a class="main-link"
+                                                                 href="https://github.com/BrianMitchL/heygetbacktowork"
+                                                                 title="Github Repo">Source</a></p>
 
-    <a class="animated rotateInUpRight main-link width-half left" href="/it/looks/like/you/are/distracted/,/maybe/you/should/get/back/to/work!/" title="$$$$$">$💰💵💸💳💲</a>
+    <a class="animated rotateInUpRight main-link width-half left"
+       href="/it/looks/like/you/are/distracted/,/maybe/you/should/get/back/to/work!/" title="$$$$$"><i class="em em-moneybag"></i><i class="em em-dollar"></i><i class="em em-money_with_wings"></i><i class="em em-credit_card"></i><i class="em em-heavy_dollar_sign"></i></a>
 
-    <a class="animated rotateInUpLeft main-link width-half right" href="/lol" title="roflcopter">🍜🍦🍭🍕🍩🍅</a>
+    <a class="animated rotateInUpLeft main-link width-half right" href="/lol" title="roflcopter"><i class="em em-ramen"></i><i class="em em-icecream"></i><i class="em em-lollipop"></i><i class="em em-pizza"></i><i class="em em-donut"></i><i class="em em-tomato"></i></a>
 </div>
 <script type="text/javascript">
-    $(document).ready(function() {
+    $(document).ready(function () {
         setTimeout(
-            function() {
+            function () {
                 $('.main-title').addClass('animated hinge');
                 setTimeout(
-                        function() {
-                            $('.main-title').remove();
-                            $("body").append("<h1 class=\"main-title text-center animated bounceIn\">Time is money. 💰<br /><small style=\"text-align:right;\">-Benjamin Franklin</small></h1>");
-                        }, 4000);
+                    function () {
+                        $('.main-title').remove();
+                        $("body").append("<h1 class=\"main-title text-center animated bounceIn\">Time is money. <i class='em em-moneybag'></i><br /><small style=\"text-align:right;\">-Benjamin Franklin</small></h1>");
+                    }, 4000);
             }, 15000);
     });
 </script>

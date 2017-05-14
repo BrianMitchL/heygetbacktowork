@@ -16,7 +16,7 @@ layout: default
 
     function onTick() {
         currentOffset++;
-        if (currentOffset == wordSet.length + 1) {
+        if (currentOffset === wordSet.length + 1) {
             clearInterval(timer);
             timer = null;
             element.removeClass('flash').addClass('bounce');
