@@ -1,4 +1,5 @@
 ---
+permalink: keybase.txt
 ---
 ==================================================================
 https://keybase.io/brianmitchl
