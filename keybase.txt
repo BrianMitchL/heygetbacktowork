@@ -1,5 +1,4 @@
 ---
-permalink: .well-known/keybase.txt
 ---
 ==================================================================
 https://keybase.io/brianmitchl
