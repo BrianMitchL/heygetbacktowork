@@ -6,7 +6,7 @@ layout: default
 
 <script type="text/javascript">
     var timer, currentOffset, wordSet;
-    var element = $('#message');
+    var element = document.getElementById('message');
 
     function Speak(text) {
         wordSet = text.split(",");
@@ -19,7 +19,8 @@ layout: default
         if (currentOffset === wordSet.length + 1) {
             clearInterval(timer);
             timer = null;
-            element.removeClass('flash').addClass('bounce');
+            element.classList.remove('flash');
+            element.classList.add('bounce');
             return;
         }
         var text = "";
@@ -27,7 +28,7 @@ layout: default
             text += wordSet[i];
         }
         text.trim();
-        element.html(text);
+        element.textContent = text;
     }
 
     Speak("S,h,o,u,l,d,n,',t ,y,o,u ,b,e ,d,o,i,n,g ,s,o,m,e,t,h,i,n,g ,e,l,s,e ,w,i,t,h ,y,o,u,r ,t,i,m,e,?");

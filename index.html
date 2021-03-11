@@ -20,15 +20,20 @@ layout: default
     <a class="main-link shake-hard shake-constant" href="{{ '/wat/' | relative_url }}">wat r u doin'</a>
 </div>
 <script type="text/javascript">
-    $(document).ready(function () {
+    (function () {
         setTimeout(
             function () {
-                $('.main-title').addClass('animated hinge');
+                var mainTitle = document.querySelector('.main-title');
+                mainTitle.classList.add('animated');
+                mainTitle.classList.add('hinge');
+
                 setTimeout(
                     function () {
-                        $('.main-title').remove();
-                        $("body").append("<h1 class=\"main-title text-center animated bounceIn\">Time is money. <i class='em em-moneybag'></i><br /><small style=\"text-align:right;\">-Benjamin Franklin</small></h1>");
+                        document.querySelector('.main-title').remove();
+                        var el = document.createElement('div');
+                        el.innerHTML = '<h1 class="main-title text-center animated bounceIn">Time is money. <i class="em em-moneybag"></i><br /><small style="text-align:right;">-Benjamin Franklin</small></h1>';
+                        document.body.appendChild(el);
                     }, 4000);
             }, 15000);
-    });
+    })();
 </script>
