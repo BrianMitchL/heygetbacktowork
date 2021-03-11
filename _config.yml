@@ -1,6 +1,7 @@
 title : Hey, Get Back to Work!
 description: You look distracted, get back to work!
-url: https://heygetbackto.work
+
+baseurl: /heygetbacktowork
 
 author : Brian Mitchell
 

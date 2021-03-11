@@ -1,5 +1,5 @@
 # Hey, Get Back to Work!
-Source of [heygetbackto.work](http://heygetbackto.work)
+Source of [https://brianm.me/heygetbacktowork/](https://brianm.me/heygetbacktowork/)
 
 A distracting reminder to get back to work.
 
