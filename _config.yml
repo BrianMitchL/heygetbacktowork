@@ -25,10 +25,5 @@ gems:
   - jekyll-seo-tag
   - jekyll-sass-converter
 
-# analytics
-analytics:
-  google:
-    tracking_id: UA-44772557-4
-
 twitter:
   username: BrianMitchL
